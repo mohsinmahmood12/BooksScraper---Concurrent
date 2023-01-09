@@ -5,12 +5,12 @@ This script concurrently scrapes data from a website https://books.toscrape.com/
 ## Getting Started
 
 Install the required packages: concurrent.futures, csv, and requests.
-    
-    ```
+```
     pip install concurrent.futures
     pip install csv
     pip install requests
-    ```
+
+ ```
 Set the URL_template variable to the URL of the website you want to scrape. The website should use a similar pagination format as the example given (i.e. https://books.toscrape.com/catalogue/page-{}.html).
 Run the script. It will scrape the website and save the data in a CSV file called books.csv.
 ## Functionality
